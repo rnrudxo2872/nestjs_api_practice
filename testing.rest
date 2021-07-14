@@ -18,8 +18,7 @@ Content-Type: application/json
 {
     "title":"내부자",
     "year":123,
-    "genres":"ewf",
-    "hacked":"by mee"
+    "genres":"ewf"
 }
 
 ###
@@ -27,7 +26,7 @@ PATCH http://localhost:3000/movies/2
 Content-Type: application/json
 
 {
-    "name":"Tenet",
-    "director":"Nolan",
-    "rating":4.5
+    "title":"Tenet",
+    "year":"Nolan",
+    "genres":"ee"
 }
