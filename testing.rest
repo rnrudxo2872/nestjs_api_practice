@@ -1,4 +1,10 @@
 
+Get http://localhost:3000/movies/
+
+###
+
+delete http://localhost:3000/movies/1
+###
 Get http://localhost:3000/movies/1
 
 ###
@@ -10,8 +16,10 @@ post http://localhost:3000/movies/
 Content-Type: application/json
 
 {
-    "name": "Tenet",
-    "director":"Nolan"
+    "title":"내부자",
+    "year":123,
+    "genres":"ewf",
+    "hacked":"by mee"
 }
 
 ###
