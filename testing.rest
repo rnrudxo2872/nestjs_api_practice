@@ -17,16 +17,15 @@ Content-Type: application/json
 
 {
     "title":"내부자",
-    "year":123,
-    "genres":"ewf"
+    "year":123
 }
 
 ###
-PATCH http://localhost:3000/movies/2
+PATCH http://localhost:3000/movies/1
 Content-Type: application/json
 
 {
     "title":"Tenet",
-    "year":"Nolan",
+    "year":123,
     "genres":"ee"
 }
